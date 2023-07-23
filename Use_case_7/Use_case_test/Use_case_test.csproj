@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Use_case_7\Use_case_7.csproj" />
+  </ItemGroup>
+
 </Project>
