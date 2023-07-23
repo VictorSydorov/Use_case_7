@@ -18,7 +18,7 @@ namespace Use_case_test.StudentTests
             };
 
             // act
-            var actual = StudentConverter.ConvertStudents(new[] { student }.ToList()).First();
+            var actual = StudentConverter.ConvertStudents(new List<Student> {student}).First();
 
             // assert
             Assert.True(expected(actual));
@@ -30,7 +30,7 @@ namespace Use_case_test.StudentTests
             // arrange          
 
             // act
-            var actual = StudentConverter.ConvertStudents(Array.Empty<Student>().ToList());
+            var actual = StudentConverter.ConvertStudents(new List<Student>());
 
             // assert
             Assert.True(!actual.Any());
