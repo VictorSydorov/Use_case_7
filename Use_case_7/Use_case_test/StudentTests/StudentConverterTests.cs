@@ -49,7 +49,6 @@ namespace Use_case_test.StudentTests
         }
     }
 
-
     public class PositiveTestCases : IEnumerable<object[]>
     {
         public static readonly List<object[]> testCases = new List<object[]>
